@@ -13,6 +13,13 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+.mt-150 {
+  margin-top: 150px;
+}
+.box-primary {
+  width: 850px;
+  margin: 0 auto;
+}
 /* text-styles */
 .heading {
   font-size: 32px;
@@ -49,7 +56,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 }
 .hero-container {
   height: 70vh;
@@ -79,7 +86,6 @@ body {
 /* why dev section */
 .why-dev {
   padding: 80px 100px;
-  margin-top: 120px;
   background-color: rgba(13, 19, 33, 0.02);
 }
 
@@ -118,18 +124,11 @@ body {
 }
 /* inspiration section */
 .inspiration {
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 50px;
 }
-.inspiration-info {
-  width: 850px;
-  display: flex;
-  flex-direction: column;
-}
-
 .inspiration-info p {
   margin-bottom: 50px;
 }
@@ -141,20 +140,11 @@ body {
   outline-offset: 30px;
 }
 /* target section */
-.target {
-  margin-top: 150px;
-}
 .target-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 50px;
-}
-.target-info-detail {
-  width: 850px;
-  margin: 0 auto;
-}
-.target-info-detail .heading {
 }
 .target-cards {
   display: flex;
@@ -184,5 +174,30 @@ body {
 }
 .target .fcard a {
   font-weight: bold;
+  color: #000;
+}
+/* next-target section */
+.next-target {
+  margin-top: 150px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+  gap: 30px;
+  margin-top: 50px;
+}
+.box-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.box-info h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.box-info a {
   color: #000;
 }
