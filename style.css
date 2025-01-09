@@ -201,3 +201,45 @@ body {
 .box-info a {
   color: #000;
 }
+/* support section */
+.support {
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(assets/handshake.jpg);
+  background-size: cover;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+.support-container {
+  width: 700px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.support-container h1 {
+  color: #fff;
+}
+.support-container p {
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+  width: 600px;
+}
+.form input[type="text"],
+.form input[type="submit"] {
+  padding: 15px;
+  border: none;
+  font-family: "Azeret Mono", serif;
+  border-radius: 8px;
+}
+.form input[type="text"] {
+  width: 550px;
+}
+.form input[type="submit"] {
+  font-weight: bold;
+  cursor: pointer;
+}
