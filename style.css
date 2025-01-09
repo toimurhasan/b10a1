@@ -34,13 +34,13 @@ body {
 /* hero style */
 .hero {
   background: url(assets/Hero-bg.png);
-  height: 100vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .hero-container {
-  height: 80vh;
+  height: 70vh;
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -62,5 +62,52 @@ body {
   border-radius: 8px;
   color: #fff;
   font-family: "Azeret Mono", serif;
+  cursor: pointer;
+}
+/* why dev section */
+.why-dev {
+  padding: 80px 100px;
+  margin-top: 120px;
+  background-color: rgba(13, 19, 33, 0.02);
+}
+.why-dev .why-dev-title {
+  margin: 30px 0;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+.why-dev .why-dev-subtitle {
+  margin: 20px 0 50px 0;
+  font-size: 16px;
+  text-align: center;
+}
+.why-dev .left h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.why-dev .left p {
+  font-size: 16px;
+}
+.card {
+  background-color: #fff;
+  width: 940px;
+  margin: 30px auto;
+  padding: 50px;
+  display: flex;
+  gap: 100px;
+}
+.card .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.card .left button {
+  width: fit-content;
+  padding: 15px;
+  background-color: transparent;
+  border: 1px solid black;
+  font-family: "Azeret Mono", serif;
+  font-size: 16px;
   cursor: pointer;
 }
