@@ -18,6 +18,7 @@ body {
   font-size: 32px;
   font-weight: 600;
   text-align: center;
+  margin-bottom: 30px;
 }
 .sub-heading {
   font-size: 16px;
@@ -44,10 +45,11 @@ body {
 /* hero style */
 .hero {
   background: url(assets/Hero-bg.png);
-  height: 85vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
 }
 .hero-container {
   height: 70vh;
@@ -80,11 +82,9 @@ body {
   margin-top: 120px;
   background-color: rgba(13, 19, 33, 0.02);
 }
-.why-dev .why-dev-title {
-  margin: 30px 0;
-}
+
 .why-dev .why-dev-subtitle {
-  margin: 20px 0 50px 0;
+  margin-bottom: 50px;
 }
 .why-dev .left h1 {
   font-size: 24px;
@@ -128,7 +128,6 @@ body {
   width: 850px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .inspiration-info p {
@@ -140,4 +139,50 @@ body {
   border-radius: 16px;
   outline: 1px solid rgba(13, 19, 33, 0.2);
   outline-offset: 30px;
+}
+/* target section */
+.target {
+  margin-top: 150px;
+}
+.target-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+.target-info-detail {
+  width: 850px;
+  margin: 0 auto;
+}
+.target-info-detail .heading {
+}
+.target-cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.target-cards .fcard {
+  height: 300px;
+  width: 350px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 16px;
+}
+.target-cards .fcard:nth-child(2) {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.target-cards .fcard:nth-child(3) {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+
+.target .fcard h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.target .fcard a {
+  font-weight: bold;
+  color: #000;
 }
